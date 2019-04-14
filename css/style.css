@@ -1,0 +1,283 @@
+
+
+html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: 
+        linear-gradient(#012844, #0070bf, #d800ff, #ff0085);
+    
+}
+
+video#bgvideo {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+
+#logo_big {
+    height: 150px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 7%;   
+}
+
+#logo_text {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 6%;
+}
+
+#book_btn {
+    width: 190px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    background-color: #ff9b19;
+    border-radius: 10px; 
+    color: white;
+    border: none;
+    font-size: 120%;
+}
+
+#book_btn:hover {
+  background-color: #c26e00;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.indhold {
+margin-top: 20%;
+color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.fordele_outer img {
+    height: 60px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fordele_outer p {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.fordele_outer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    margin-bottom: 15%;
+}
+
+
+.repairs_con {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.repairs_con img {
+    width: 55%;
+}
+
+.rep_inner p {
+    text-align: center;
+    width: 130px;
+    font-size: 90%;
+    
+}
+.rep_inner {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ff9b19;
+  color: white;
+  padding: 12px 70px;
+  border: none;
+  cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #c26e00;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    width: 27%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  background-color: #0070bf;
+  padding: 20px;
+}
+
+.container > p {
+    color: white;
+}
+
+.contact_txt {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+#book_txt {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    
+}
+
+.margin {
+    margin-bottom: 13%;
+    text-align: center;
+    font-size: 110%;
+    margin-top: 2%;
+}
+
+label {
+    color: white;
+}
+
+#problem {
+    margin-bottom: 12%;
+}
+
+
+
+
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 50px auto;
+    margin-top: 20%;
+}
+
+/*header*/
+header {
+ width: 800px;
+ margin: 40px auto;
+}
+ 
+header h1 {
+ text-align: center;
+ font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+ 
+}
+ 
+#kunder {
+    margin-bottom: 10%;
+    margin-top: 0;
+}
+
+ 
+/*photobanner*/
+ 
+.photobanner {
+ height: 233px;
+ width: 3565px;
+ margin-bottom: 80px;
+background: rgba (0000, 0000, 0000, .2);
+}
+
+
+.photobanner img {
+    width: 300px;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+/*keyframe animations*/
+.first {
+         animation: bannermove 30s linear infinite;
+}
+
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+
+.box {
+    width: 1350px;
+    height: 390px;
+    position: absolute;
+    z-index: -1;
+    background: rgb(1, 40, 68, 0.5);
+   margin: auto;
+     right: 0;
+     left: 0;
+  
+    
+}
+
+
+footer {
+    display: flex;
+    height: 50px;
+    margin-top: 10%;
+    justify-content: space-evenly;
+    
+}
